@@ -1,0 +1,10 @@
+{
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "{\"translations\":[{\"key\":\"fixture-key\",\"translation\":\"星光研究慶典\"}]}"
+      }
+    }
+  ]
+}

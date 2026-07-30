@@ -1,0 +1,77 @@
+name: Update calendar
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 0,6,12,18 * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  models: read
+
+concurrency:
+  group: pokemon-go-calendar-update
+  cancel-in-progress: false
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Use Node.js 22
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Test before updating
+        run: |
+          npm run typecheck
+          npm run lint
+          npm test
+
+      - name: Fetch, translate, and generate calendar
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_MODEL: ${{ vars.GITHUB_MODEL || 'openai/gpt-4.1-mini' }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          SITE_BASE_URL: ${{ vars.SITE_BASE_URL }}
+        run: npm run update
+
+      - name: Validate generated calendar
+        run: npm run validate:ics
+
+      - name: Commit generated files and caches
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public data/translation-cache.json data/official-page-cache.json
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+          else
+            git commit -m "chore: update calendar [skip ci]"
+            git push
+          fi
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: public
+
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

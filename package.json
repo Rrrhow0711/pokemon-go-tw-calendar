@@ -1,0 +1,38 @@
+{
+  "name": "pokemon-go-tw-calendar",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "自動更新的 Pokémon GO 台灣繁體中文活動訂閱行事曆",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "dev": "tsx src/dev.ts",
+    "build": "tsx src/index.ts --fixture",
+    "update": "tsx src/index.ts",
+    "test": "vitest run",
+    "test:live": "tsx src/live-smoke.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "validate:ics": "tsx src/validate-ics.ts public/pokemon-go-zh-TW.ics"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "ical.js": "^2.2.1",
+    "luxon": "^3.7.2",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/luxon": "^3.7.1",
+    "@types/node": "^22.19.11",
+    "eslint": "^10.8.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.65.0",
+    "vitest": "^4.0.15",
+    "yaml": "^2.8.2"
+  },
+  "license": "MIT"
+}

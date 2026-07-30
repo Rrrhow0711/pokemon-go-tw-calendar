@@ -1,0 +1,12 @@
+{
+  "lastSuccessfulUpdate": "2026-07-30T10:16:28.125Z",
+  "sourceEventCount": 45,
+  "generatedEventCount": 45,
+  "officialTranslationCount": 6,
+  "ruleTranslationCount": 13,
+  "modelTranslationCount": 0,
+  "fallbackCount": 25,
+  "warnings": [],
+  "sourceUrl": "https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data/events.json",
+  "calendarUrl": "https://rrrhow0711.github.io/pokemon-go-tw-calendar/pokemon-go-zh-TW.ics"
+}

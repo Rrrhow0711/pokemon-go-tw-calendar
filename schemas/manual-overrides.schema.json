@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "title": { "type": "string", "maxLength": 200 },
+      "officialUrl": { "type": "string", "format": "uri" },
+      "description": { "type": "string", "maxLength": 2000 },
+      "disabled": { "type": "boolean" },
+      "notes": { "type": "string", "maxLength": 1000 }
+    }
+  }
+}

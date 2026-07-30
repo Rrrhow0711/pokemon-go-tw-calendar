@@ -1,0 +1,288 @@
+import type { BuildStatus } from "./types.js";
+
+export function buildPage(status: BuildStatus, siteBaseUrl: string): string {
+  const calendarUrl = new URL("pokemon-go-zh-TW.ics", siteBaseUrl).href;
+  const webcalUrl = calendarUrl.replace(/^https?:\/\//u, "webcal://");
+  const safeStatus = {
+    events: status.generatedEventCount,
+    updated: formatUpdateTime(status.lastSuccessfulUpdate),
+    official: status.officialTranslationCount,
+    rules: status.ruleTranslationCount,
+    models: status.modelTranslationCount,
+    pending: status.fallbackCount,
+  };
+  const configJson = JSON.stringify({ calendarUrl, webcalUrl }).replace(/</gu, "\\u003c");
+
+  return `<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#071a25">
+  <meta name="description" content="免費、自動更新的 Pokémon GO 台灣繁體中文活動訂閱行事曆。">
+  <title>Pokémon GO 台灣活動行事曆</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --night: #06131c;
+      --panel: #0d2430;
+      --panel-2: #123441;
+      --ink: #f3f7ee;
+      --muted: #9db7ba;
+      --mint: #69e6b2;
+      --sun: #ffd463;
+      --coral: #ff806e;
+      --line: rgba(157, 183, 186, .22);
+      --shadow: 0 24px 70px rgba(0, 0, 0, .34);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-width: 320px;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 82% 4%, rgba(105, 230, 178, .14), transparent 29rem),
+        radial-gradient(circle at 8% 34%, rgba(255, 212, 99, .08), transparent 24rem),
+        var(--night);
+      font-family: "Iowan Old Style", "Noto Serif TC", "Songti TC", Georgia, serif;
+      line-height: 1.7;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      opacity: .12;
+      background-image: linear-gradient(rgba(255,255,255,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.04) 1px, transparent 1px);
+      background-size: 44px 44px;
+      mask-image: linear-gradient(to bottom, #000, transparent 75%);
+    }
+    a { color: var(--mint); text-underline-offset: .22em; }
+    button, .button {
+      font: inherit;
+      font-weight: 750;
+      letter-spacing: .03em;
+    }
+    .shell { width: min(1120px, calc(100% - 32px)); margin: 0 auto; }
+    .hero {
+      min-height: 680px;
+      display: grid;
+      grid-template-columns: 1.2fr .8fr;
+      align-items: center;
+      gap: clamp(36px, 7vw, 96px);
+      padding: 72px 0 54px;
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 22px;
+      color: var(--mint);
+      font: 700 .75rem/1.2 ui-monospace, "SFMono-Regular", Consolas, monospace;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+    }
+    .eyebrow::before { content: ""; width: 28px; height: 2px; background: currentColor; }
+    h1, h2, h3 { margin: 0; line-height: 1.12; text-wrap: balance; }
+    h1 { max-width: 770px; font-size: clamp(3rem, 8vw, 6.8rem); letter-spacing: -.055em; }
+    h1 span { color: var(--sun); }
+    .lead { max-width: 620px; margin: 28px 0 34px; color: #c5d5d3; font-size: clamp(1rem, 2vw, 1.22rem); }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; }
+    .button {
+      min-height: 52px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 20px;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+    }
+    .button:hover { transform: translateY(-2px); }
+    .button.primary { color: #072319; background: var(--mint); box-shadow: 0 12px 34px rgba(105, 230, 178, .2); }
+    .button.secondary { color: var(--ink); background: transparent; border-color: var(--line); }
+    .signal {
+      position: relative;
+      aspect-ratio: 1;
+      display: grid;
+      place-items: center;
+      max-width: 390px;
+      margin: auto;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(105,230,178,.12) 0 28%, transparent 29% 100%);
+      box-shadow: inset 0 0 70px rgba(105,230,178,.04);
+    }
+    .signal::before, .signal::after { content: ""; position: absolute; border: 1px solid var(--line); border-radius: 50%; }
+    .signal::before { inset: 14%; }
+    .signal::after { inset: 32%; border-color: var(--mint); animation: pulse 3s ease-in-out infinite; }
+    .signal-core { text-align: center; z-index: 1; }
+    .signal-number { display: block; color: var(--sun); font: 700 clamp(4rem, 11vw, 7rem)/.9 ui-monospace, Consolas, monospace; letter-spacing: -.08em; }
+    .signal-label { display: block; margin-top: 14px; color: var(--muted); font-size: .82rem; letter-spacing: .16em; }
+    @keyframes pulse { 50% { transform: scale(1.12); opacity: .35; } }
+    .status {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      margin: 0 0 88px;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+    .metric { padding: 24px 20px; border-right: 1px solid var(--line); }
+    .metric:last-child { border-right: 0; }
+    .metric strong { display: block; color: var(--sun); font: 700 1.7rem/1 ui-monospace, Consolas, monospace; }
+    .metric span { color: var(--muted); font-size: .82rem; }
+    .section { padding: 0 0 96px; }
+    .section-head { display: grid; grid-template-columns: .55fr 1fr; gap: 40px; margin-bottom: 30px; }
+    .section h2 { font-size: clamp(2rem, 5vw, 4rem); letter-spacing: -.035em; }
+    .section-intro { margin: 8px 0 0; color: var(--muted); }
+    .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; counter-reset: step; }
+    .step {
+      min-height: 260px;
+      padding: 28px;
+      counter-increment: step;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: linear-gradient(145deg, rgba(18,52,65,.8), rgba(13,36,48,.55));
+      box-shadow: var(--shadow);
+    }
+    .step::before {
+      content: "0" counter(step);
+      display: block;
+      margin-bottom: 52px;
+      color: var(--coral);
+      font: 700 .78rem/1 ui-monospace, Consolas, monospace;
+      letter-spacing: .14em;
+    }
+    .step h3 { font-size: 1.25rem; }
+    .step p { margin: 12px 0 0; color: var(--muted); font-size: .94rem; }
+    .urls { display: grid; gap: 10px; margin-top: 28px; }
+    .url-row { display: grid; grid-template-columns: 84px 1fr; gap: 12px; padding: 14px 16px; border: 1px solid var(--line); border-radius: 8px; background: rgba(0,0,0,.14); }
+    .url-row span { color: var(--muted); font: .72rem/1.7 ui-monospace, Consolas, monospace; text-transform: uppercase; }
+    .url-row code { min-width: 0; overflow-wrap: anywhere; color: #d8e8e3; font: .78rem/1.7 ui-monospace, Consolas, monospace; }
+    .notice { padding: 24px; border-left: 3px solid var(--sun); background: rgba(255,212,99,.07); color: #dce7df; }
+    footer { padding: 36px 0 48px; border-top: 1px solid var(--line); color: var(--muted); font-size: .84rem; }
+    .footer-grid { display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
+    .sources { display: flex; gap: 16px; flex-wrap: wrap; }
+    .toast { position: fixed; right: 18px; bottom: 18px; padding: 12px 16px; border-radius: 8px; color: #062019; background: var(--mint); box-shadow: var(--shadow); opacity: 0; transform: translateY(12px); pointer-events: none; transition: .2s ease; }
+    .toast.show { opacity: 1; transform: translateY(0); }
+    @media (max-width: 760px) {
+      .hero { min-height: auto; grid-template-columns: 1fr; padding-top: 50px; }
+      .signal { width: min(78vw, 330px); grid-row: 1; }
+      .status { grid-template-columns: repeat(2, 1fr); }
+      .metric:nth-child(2) { border-right: 0; }
+      .metric:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
+      .section-head, .steps { grid-template-columns: 1fr; }
+      .step { min-height: 220px; }
+      .step::before { margin-bottom: 34px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; animation: none !important; transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Taipei field calendar · 自動同步</p>
+        <h1>Pokémon GO<br><span>台灣活動</span>行事曆</h1>
+        <p class="lead">訂閱一次，活動新增、改期或取消就會跟著更新。專為台灣時區與 Apple 行事曆整理，免費、無廣告、不需 API Key。</p>
+        <div class="actions">
+          <a class="button primary" id="subscribe" href="${escapeHtml(webcalUrl)}">加入 Apple 行事曆</a>
+          <button class="button secondary" id="copy" type="button">複製訂閱網址</button>
+        </div>
+      </div>
+      <div class="signal" aria-label="目前活動數量 ${safeStatus.events}">
+        <div class="signal-core">
+          <strong class="signal-number">${safeStatus.events}</strong>
+          <span class="signal-label">ACTIVE EVENTS</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="status" aria-label="更新狀態">
+      <div class="metric"><strong>${safeStatus.official}</strong><span>官方繁中</span></div>
+      <div class="metric"><strong>${safeStatus.rules}</strong><span>固定規則</span></div>
+      <div class="metric"><strong>${safeStatus.models}</strong><span>Models 翻譯</span></div>
+      <div class="metric"><strong>${safeStatus.pending}</strong><span>待人工確認</span></div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>三步完成訂閱</h2>
+        <p class="section-intro">最後成功更新：${escapeHtml(safeStatus.updated)}。Apple 會依自己的排程重新抓取訂閱，來源更新後不一定立即出現在手機上。</p>
+      </div>
+      <div class="steps">
+        <article class="step"><h3>點選加入</h3><p>在 iPhone Safari 開啟本頁，按「加入 Apple 行事曆」，允許系統開啟行事曆。</p></article>
+        <article class="step"><h3>確認訂閱</h3><p>檢查行事曆名稱為「Pokémon GO 台灣活動」，再按下訂閱。這不是逐筆匯入，所以後續可以同步。</p></article>
+        <article class="step"><h3>需要移除時</h3><p>前往「設定 → App → 行事曆 → 行事曆帳號 → 已訂閱的行事曆」，選取本行事曆並刪除帳號。</p></article>
+      </div>
+      <div class="urls">
+        <div class="url-row"><span>HTTPS</span><code>${escapeHtml(calendarUrl)}</code></div>
+        <div class="url-row"><span>WEBCAL</span><code>${escapeHtml(webcalUrl)}</code></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>資料透明，不假裝官方</h2>
+        <div>
+          <p class="section-intro">活動資料由 Pokémon GO 官方公告出發，經 Leek Duck 整理與 ScrapedDuck 結構化，本專案只保留短標題、時間、分類與來源連結，再做台灣繁體中文化。</p>
+          <p class="notice">本服務非 Pokémon GO 官方服務，與 Niantic、The Pokémon Company 無隸屬關係。若來源暫時故障或筆數異常下降，自動化會保留上一版正常日曆，不發布空白版本。</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-grid">
+      <span>最後成功更新 ${escapeHtml(safeStatus.updated)} · ${safeStatus.events} 筆活動</span>
+      <nav class="sources" aria-label="資料來源">
+        <a href="https://pokemongo.com/zh-Hant/news" rel="noreferrer">Pokémon GO 中文官網</a>
+        <a href="https://leekduck.com/events/" rel="noreferrer">Leek Duck</a>
+        <a href="https://github.com/bigfoott/ScrapedDuck" rel="noreferrer">ScrapedDuck</a>
+        <a href="status.json">status.json</a>
+      </nav>
+    </div>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite">已複製 HTTPS 訂閱網址</div>
+  <script>
+    const config = ${configJson};
+    const copyButton = document.getElementById("copy");
+    const toast = document.getElementById("toast");
+    copyButton.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(config.calendarUrl);
+        toast.classList.add("show");
+        window.setTimeout(() => toast.classList.remove("show"), 2200);
+      } catch {
+        window.prompt("請複製此訂閱網址：", config.calendarUrl);
+      }
+    });
+  </script>
+</body>
+</html>
+`;
+}
+
+export function escapeHtml(value: string): string {
+  return value.replace(
+    /[&<>"']/gu,
+    (character) =>
+      ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[
+        character
+      ] ?? character,
+  );
+}
+
+function formatUpdateTime(value: string): string {
+  return new Intl.DateTimeFormat("zh-TW", {
+    timeZone: "Asia/Taipei",
+    dateStyle: "medium",
+    timeStyle: "short",
+    hour12: false,
+  }).format(new Date(value));
+}
