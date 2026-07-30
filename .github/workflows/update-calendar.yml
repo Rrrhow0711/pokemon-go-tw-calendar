@@ -44,7 +44,7 @@ jobs:
       - name: Fetch, translate, and generate calendar
         env:
           GITHUB_TOKEN: ${{ github.token }}
-          GITHUB_MODEL: ${{ vars.GITHUB_MODEL || 'openai/gpt-4.1-mini' }}
+          GITHUB_MODEL: ${{ vars.MODEL_ID || 'openai/gpt-4.1-mini' }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           SITE_BASE_URL: ${{ vars.SITE_BASE_URL }}
         run: npm run update

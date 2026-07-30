@@ -142,7 +142,7 @@ Apple 對訂閱行事曆有自己的快取與更新排程；網站已更新不�
 
 人工覆寫永遠優先。`disabled: true` 可暫時排除一筆活動。提交後可手動執行 Update calendar。
 
-若要更換模型，建議在 **Settings → Secrets and variables → Actions → Variables** 新增 `GITHUB_MODEL`，例如 `openai/gpt-4.1-mini`。模型必須存在於目前 [GitHub Models 目錄](https://github.com/marketplace?type=models)，且 repository/organization policy 已允許。無法使用時會自動備援。
+若要更換模型，建議在 **Settings → Secrets and variables → Actions → Variables** 新增 `MODEL_ID`，例如 `openai/gpt-4.1-mini`。workflow 會把它映射成程式使用的 `GITHUB_MODEL` 環境變數；GitHub 不允許自訂 Actions variable 使用 `GITHUB_` 保留前綴。模型必須存在於目前 [GitHub Models 目錄](https://github.com/marketplace?type=models)，且 repository/organization policy 已允許。無法使用時會自動備援。
 
 ## 狀態與故障排除
 
