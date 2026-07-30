@@ -1,1 +1,194 @@
-{}
+{
+  "aa37e1dacb5f54a24ae1705958c5ded91fa60cd147d7459074bf57c703167afc": {
+    "original": "Choose Your Path: Fairy Trail",
+    "translation": "選擇你的路徑：妖精之徑",
+    "source": "github-models",
+    "model": "openai/gpt-4.1-mini",
+    "createdAt": "2026-07-30T10:18:56.760Z",
+    "lastUsedAt": "2026-07-30T10:18:56.760Z"
+  },
+  "eb5c9196b95fbc0d1b0ab031dc38162ef6e1ec4ffb38e13260cf963a0e9f5a5f": {
+    "original": "Great League and Master Premier | Forever Forward",
+    "translation": "超級聯盟與大師冠軍賽｜永遠向前",
+    "source": "github-models",
+    "model": "openai/gpt-4.1-mini",
+    "createdAt": "2026-07-30T10:18:56.760Z",
+    "lastUsedAt": "2026-07-30T10:18:56.760Z"
+  },
+  "ae593c2dca3d3a56cfa30125487e21ef6a87fca446aaad5bc6e37c8fd3c4a9dd": {
+    "original": "Shadow Palkia in Shadow Raids",
+    "translation": "暗影帕路奇亞團體戰",
+    "source": "github-models",
+    "model": "openai/gpt-4.1-mini",
+    "createdAt": "2026-07-30T10:18:56.760Z",
+    "lastUsedAt": "2026-07-30T10:18:56.760Z"
+  },
+  "8aea35530143b7b12ee066ef1f1400426dc26fef709013dd349d0c753e8dc277": {
+    "original": "Uxie, Mesprit, and Azelf Raid Hour",
+    "translation": "由克希、艾姆利多與亞克諾姆團體戰時段",
+    "source": "github-models",
+    "model": "openai/gpt-4.1-mini",
+    "createdAt": "2026-07-30T10:18:56.760Z",
+    "lastUsedAt": "2026-07-30T10:18:56.760Z"
+  },
+  "b88463d241376fc981e2974a76d3d0cbb6340c661897a45a146ea74179f7e822": {
+    "original": "Ultra League and Weather Cup: Great League Edition | Forever Forward",
+    "translation": "超級聯盟與天氣盃：超級聯盟版｜永遠向前",
+    "source": "github-models",
+    "model": "openai/gpt-4.1-mini",
+    "createdAt": "2026-07-30T10:18:56.760Z",
+    "lastUsedAt": "2026-07-30T10:18:56.760Z"
+  },
+  "a5f6ba86a86c638845c676604d7ed64ffd49fbd5c5ea25c8bd266251add13d07": {
+    "original": "Uxie, Mesprit, and Azelf in 5-star Raid Battles",
+    "translation": "由克希、艾姆利多與亞克諾姆五星團體戰",
+    "source": "github-models",
+    "model": "openai/gpt-4.1-mini",
+    "createdAt": "2026-07-30T10:18:56.760Z",
+    "lastUsedAt": "2026-07-30T10:18:56.760Z"
+  },
+  "a71b97b1c755eb1cb93f77996f7bf5a696ffdd6b7028bd40994ce46162a7b415": {
+    "original": "Choose Your Path: Venom and Vines",
+    "translation": "選擇你的路徑：毒與藤蔓",
+    "source": "github-models",
+    "model": "openai/gpt-4.1-mini",
+    "createdAt": "2026-07-30T10:18:56.760Z",
+    "lastUsedAt": "2026-07-30T10:18:56.760Z"
+  },
+  "c914b7474f1bffd2acab078827c816594c707f0f7a3158637dbd81d94430aacf": {
+    "original": "Dynamax Magikarp during Max Monday",
+    "translation": "Max Monday：極巨鯉魚王",
+    "source": "github-models",
+    "model": "openai/gpt-4.1-mini",
+    "createdAt": "2026-07-30T10:18:56.760Z",
+    "lastUsedAt": "2026-07-30T10:18:56.760Z"
+  },
+  "d04fcea83b1c47f59d896f5e3d2ef9f841d3725ea4443203bfc5a05179ec20ce": {
+    "original": "Master League and Evolution Cup: Great League Edition | Forever Forward",
+    "translation": "大師聯盟與進化盃：超級聯盟版｜永遠向前",
+    "source": "github-models",
+    "model": "openai/gpt-4.1-mini",
+    "createdAt": "2026-07-30T10:18:56.760Z",
+    "lastUsedAt": "2026-07-30T10:18:56.760Z"
+  },
+  "6bd1f96ee54b6c5d6c95e8a86597e9a9899bdacf4b23219620a16fd20888af5c": {
+    "original": "Mega Garchomp in Mega Raids",
+    "translation": "超級團體戰：超級烈咬陸鯊",
+    "source": "github-models",
+    "model": "openai/gpt-4.1-mini",
+    "createdAt": "2026-07-30T10:18:56.760Z",
+    "lastUsedAt": "2026-07-30T10:18:56.760Z"
+  },
+  "ed2f5d481ab3a2f58204f0fcd347b480f070a1a13145eb05c5bfaead041ec9a5": {
+    "original": "Lunala Raid Hour",
+    "translation": "露奈雅拉團體戰時段",
+    "source": "github-models",
+    "model": "openai/gpt-4.1-mini",
+    "createdAt": "2026-07-30T10:18:56.760Z",
+    "lastUsedAt": "2026-07-30T10:18:56.760Z"
+  },
+  "df1c4368321ac9da0dcb55fedcb3a14f8014365c19bc8f8782b1f7cbb5b6e469": {
+    "original": "Dynamax Hitmontop during Max Monday",
+    "translation": "Max Monday：極巨戰舞郎",
+    "source": "github-models",
+    "model": "openai/gpt-4.1-mini",
+    "createdAt": "2026-07-30T10:18:56.760Z",
+    "lastUsedAt": "2026-07-30T10:18:56.760Z"
+  },
+  "4f5b16c60d1cd027972ef7b713d3896aa1c8d8e03761af903c1b197caa77b9b7": {
+    "original": "Great League and Scroll Cup: Great League Edition | Forever Forward",
+    "translation": "超級聯盟與卷軸盃：超級聯盟版｜永遠向前",
+    "source": "github-models",
+    "model": "openai/gpt-4.1-mini",
+    "createdAt": "2026-07-30T10:18:56.760Z",
+    "lastUsedAt": "2026-07-30T10:18:56.760Z"
+  },
+  "6c310daa547871e97edd09091d290b05593e3f2c15c6d42cfbf6a64e62c5edd0": {
+    "original": "Lunala in 5-star Raid Battles",
+    "translation": "露奈雅拉五星團體戰",
+    "source": "github-models",
+    "model": "openai/gpt-4.1-mini",
+    "createdAt": "2026-07-30T10:18:56.760Z",
+    "lastUsedAt": "2026-07-30T10:18:56.760Z"
+  },
+  "906d9fe989a1d5fcb4e6106642b6bc6e0d45b3848332359e8253dd89fde2f495": {
+    "original": "Mega Swampert in Mega Raids",
+    "translation": "超級團體戰：超級巨沼怪",
+    "source": "github-models",
+    "model": "openai/gpt-4.1-mini",
+    "createdAt": "2026-07-30T10:18:56.760Z",
+    "lastUsedAt": "2026-07-30T10:18:56.760Z"
+  },
+  "74c9ae33592c3902a1412ff9ec04aae6bd552d63951c9ba6815afcd6d62e4599": {
+    "original": "Regirock, Regice, and Registeel Raid Hour",
+    "translation": "雷吉洛克、雷吉艾斯與雷吉斯奇魯團體戰時段",
+    "source": "github-models",
+    "model": "openai/gpt-4.1-mini",
+    "createdAt": "2026-07-30T10:18:56.760Z",
+    "lastUsedAt": "2026-07-30T10:18:56.760Z"
+  },
+  "a20954f0874757644d38fbf06b5b98465c2e53c582350b69af63abf81272576c": {
+    "original": "Pokémon XP &amp; 2026 Worlds",
+    "translation": "寶可夢經驗值與2026世界賽",
+    "source": "github-models",
+    "model": "openai/gpt-4.1-mini",
+    "createdAt": "2026-07-30T10:18:56.760Z",
+    "lastUsedAt": "2026-07-30T10:18:56.760Z"
+  },
+  "1dcc44d06be752c63deae605c0c226d92087cb2a1dbd23e9c624e61ab167dfe7": {
+    "original": "Great League, Ultra League, and Master League | Forever Forward",
+    "translation": "超級聯盟、超級聯盟與大師聯盟｜永遠向前",
+    "source": "github-models",
+    "model": "openai/gpt-4.1-mini",
+    "createdAt": "2026-07-30T10:18:56.760Z",
+    "lastUsedAt": "2026-07-30T10:18:56.760Z"
+  },
+  "a9d6de9d8f35c0ef514f3c29ac8f3819adc1eaea3ad498a771c1889764aaab0b": {
+    "original": "Pokémon GO Fest 2026: Mega Finale",
+    "translation": "Pokémon GO Fest 2026：終極盛典",
+    "source": "github-models",
+    "model": "openai/gpt-4.1-mini",
+    "createdAt": "2026-07-30T10:18:56.760Z",
+    "lastUsedAt": "2026-07-30T10:18:56.760Z"
+  },
+  "15c0ccd1f7e3aaedf239a4a25dabaf0a127643b0eb21001864ace6ddc8e8561b": {
+    "original": "Forever Forward",
+    "translation": "永遠前進",
+    "source": "github-models",
+    "model": "openai/gpt-4.1-mini",
+    "createdAt": "2026-07-30T10:18:56.760Z",
+    "lastUsedAt": "2026-07-30T10:18:56.760Z"
+  },
+  "706163dadf9d387579e18adc9358a0ad479bf168287c95e94f4d6ad05aa067c8": {
+    "original": "Great League, Ultra League, and Master League: Mega Edition | Forever Forward",
+    "translation": "大師聯盟：永遠前進",
+    "source": "github-models",
+    "model": "openai/gpt-4.1-mini",
+    "createdAt": "2026-07-30T10:18:56.760Z",
+    "lastUsedAt": "2026-07-30T10:18:56.760Z"
+  },
+  "58067cc6af55a448700cc6c8f0d872f1b068d3096c4bc01a75eda889884e05f9": {
+    "original": "Shadow Giratina (Altered Forme) in Shadow Raids",
+    "translation": "暗影騎拉帝納（變形）團體戰",
+    "source": "github-models",
+    "model": "openai/gpt-4.1-mini",
+    "createdAt": "2026-07-30T10:18:56.760Z",
+    "lastUsedAt": "2026-07-30T10:18:56.760Z"
+  },
+  "81c4c3bb84c4c3ffe825bad5677c7ffbca44b266cbad3323435e1a891e1067f2": {
+    "original": "Mega Gyarados in Mega Raids",
+    "translation": "超級暴鯉龍團體戰",
+    "source": "github-models",
+    "model": "openai/gpt-4.1-mini",
+    "createdAt": "2026-07-30T10:18:56.760Z",
+    "lastUsedAt": "2026-07-30T10:18:56.760Z"
+  },
+  "72db99620207752c94afa5e3f9dbd9338d9bf395c6212b40d765ba4335605919": {
+    "original": "Regirock, Regice, and Registeel in 5-star Raid Battles",
+    "translation": "三神柱五星團體戰",
+    "source": "github-models",
+    "model": "openai/gpt-4.1-mini",
+    "createdAt": "2026-07-30T10:18:56.760Z",
+    "lastUsedAt": "2026-07-30T10:18:56.760Z"
+  }
+}
