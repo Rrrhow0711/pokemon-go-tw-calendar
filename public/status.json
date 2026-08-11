@@ -1,9 +1,9 @@
 {
-  "lastSuccessfulUpdate": "2026-08-11T13:42:13.584Z",
-  "sourceEventCount": 46,
-  "generatedEventCount": 46,
-  "officialTranslationCount": 5,
-  "ruleTranslationCount": 6,
+  "lastSuccessfulUpdate": "2026-08-11T19:19:38.011Z",
+  "sourceEventCount": 44,
+  "generatedEventCount": 44,
+  "officialTranslationCount": 4,
+  "ruleTranslationCount": 5,
   "modelTranslationCount": 20,
   "fallbackCount": 15,
   "warnings": [
