@@ -320,5 +320,65 @@
     "found": false,
     "fetchedAt": "2026-08-10T08:04:03.345Z",
     "confidence": 1
+  },
+  "max-battle-day-october-2026": {
+    "eventID": "max-battle-day-october-2026",
+    "found": false,
+    "fetchedAt": "2026-08-11T02:27:04.550Z",
+    "confidence": 1
+  },
+  "september-communitydayclassic2026": {
+    "eventID": "september-communitydayclassic2026",
+    "found": false,
+    "fetchedAt": "2026-08-11T02:27:04.550Z",
+    "confidence": 1
+  },
+  "super-mega-raid-day-september-2026": {
+    "eventID": "super-mega-raid-day-september-2026",
+    "found": false,
+    "fetchedAt": "2026-08-11T02:27:04.550Z",
+    "confidence": 1
+  },
+  "catch-mastery-september-2026": {
+    "eventID": "catch-mastery-september-2026",
+    "found": false,
+    "fetchedAt": "2026-08-11T02:27:04.550Z",
+    "confidence": 1
+  },
+  "hatch-day-october-2026": {
+    "eventID": "hatch-day-october-2026",
+    "found": false,
+    "fetchedAt": "2026-08-11T02:27:04.550Z",
+    "confidence": 1
+  },
+  "october-communityday2026": {
+    "eventID": "october-communityday2026",
+    "found": false,
+    "fetchedAt": "2026-08-11T02:27:04.550Z",
+    "confidence": 1
+  },
+  "max-battle-day-october-24-2026": {
+    "eventID": "max-battle-day-october-24-2026",
+    "found": false,
+    "fetchedAt": "2026-08-11T02:27:04.550Z",
+    "confidence": 1
+  },
+  "super-mega-raid-day-october-2026": {
+    "eventID": "super-mega-raid-day-october-2026",
+    "found": false,
+    "fetchedAt": "2026-08-11T02:27:04.550Z",
+    "confidence": 1
+  },
+  "november-communityday2026": {
+    "eventID": "november-communityday2026",
+    "found": false,
+    "fetchedAt": "2026-08-11T02:27:04.550Z",
+    "confidence": 1
+  },
+  "super-mega-raid-day-november-2026": {
+    "eventID": "super-mega-raid-day-november-2026",
+    "found": false,
+    "fetchedAt": "2026-08-11T02:27:04.550Z",
+    "confidence": 1
   }
 }
