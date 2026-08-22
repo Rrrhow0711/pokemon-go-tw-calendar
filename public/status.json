@@ -1,11 +1,11 @@
 {
-  "lastSuccessfulUpdate": "2026-08-22T01:50:08.286Z",
-  "sourceEventCount": 35,
-  "generatedEventCount": 35,
+  "lastSuccessfulUpdate": "2026-08-22T06:58:56.542Z",
+  "sourceEventCount": 33,
+  "generatedEventCount": 33,
   "officialTranslationCount": 5,
   "ruleTranslationCount": 1,
-  "modelTranslationCount": 14,
-  "fallbackCount": 15,
+  "modelTranslationCount": 13,
+  "fallbackCount": 14,
   "warnings": [
     "GitHub Models 無法使用，已採安全備援：GitHub Models 回傳 HTTP 410"
   ],
