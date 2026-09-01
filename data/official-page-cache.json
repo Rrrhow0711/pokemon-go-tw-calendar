@@ -400,7 +400,7 @@
     "found": true,
     "title": "GO Pass：9月",
     "officialUrl": "https://pokemongo.com/zh-Hant/news/go-pass-september-2026",
-    "fetchedAt": "2026-08-25T18:56:33.560Z",
+    "fetchedAt": "2026-09-01T21:02:01.704Z",
     "confidence": 1
   },
   "season-24-twilight-trails": {
@@ -657,6 +657,14 @@
     "eventID": "gbl-twilight-trails_great-league_ultra-league-mega-edition_2026-go-laic-cup",
     "found": false,
     "fetchedAt": "2026-09-01T05:07:11.731Z",
+    "confidence": 1
+  },
+  "staraptor-super-mega-raid-day-2026": {
+    "eventID": "staraptor-super-mega-raid-day-2026",
+    "found": true,
+    "title": "姆克鷹極致超級團體戰日",
+    "officialUrl": "https://pokemongo.com/zh-Hant/news/staraptor-super-mega-raid-day-2026",
+    "fetchedAt": "2026-09-01T21:02:01.704Z",
     "confidence": 1
   }
 }
