@@ -406,7 +406,7 @@
   "season-24-twilight-trails": {
     "eventID": "season-24-twilight-trails",
     "found": false,
-    "fetchedAt": "2026-09-01T11:38:28.911Z",
+    "fetchedAt": "2026-09-02T16:34:08.926Z",
     "confidence": 1
   },
   "max-mondays-2026-09-07": {
@@ -665,6 +665,12 @@
     "title": "姆克鷹極致超級團體戰日",
     "officialUrl": "https://pokemongo.com/zh-Hant/news/staraptor-super-mega-raid-day-2026",
     "fetchedAt": "2026-09-01T21:02:01.704Z",
+    "confidence": 1
+  },
+  "pokemon-horizons-the-series-celebration-event-2026": {
+    "eventID": "pokemon-horizons-the-series-celebration-event-2026",
+    "found": false,
+    "fetchedAt": "2026-09-02T16:34:08.926Z",
     "confidence": 1
   }
 }
