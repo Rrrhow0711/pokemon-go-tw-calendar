@@ -406,7 +406,7 @@
   "season-24-twilight-trails": {
     "eventID": "season-24-twilight-trails",
     "found": false,
-    "fetchedAt": "2026-09-02T16:34:08.926Z",
+    "fetchedAt": "2026-09-03T21:01:36.199Z",
     "confidence": 1
   },
   "max-mondays-2026-09-07": {
@@ -670,7 +670,7 @@
   "pokemon-horizons-the-series-celebration-event-2026": {
     "eventID": "pokemon-horizons-the-series-celebration-event-2026",
     "found": false,
-    "fetchedAt": "2026-09-02T16:34:08.926Z",
+    "fetchedAt": "2026-09-03T21:01:36.199Z",
     "confidence": 1
   }
 }
