@@ -238,13 +238,13 @@
     "found": true,
     "title": "GO Pass：8月",
     "officialUrl": "https://pokemongo.com/zh-Hant/news/go-pass-august-2026",
-    "fetchedAt": "2026-08-28T11:22:41.949Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "season-23-forever-forward": {
     "eventID": "season-23-forever-forward",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "gbl-forever-forward_great-league_ultra-league_master-league-mega-edition": {
@@ -262,25 +262,25 @@
   "pokemon-go-fest-2026-mega-finale": {
     "eventID": "pokemon-go-fest-2026-mega-finale",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "regirock-regice-registeel-in-5-star-raid-battles-august-2026": {
     "eventID": "regirock-regice-registeel-in-5-star-raid-battles-august-2026",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "mega-gyarados-in-mega-raids-august-2026": {
     "eventID": "mega-gyarados-in-mega-raids-august-2026",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "shadow-giratina-altered-in-shadow-raids-august-2026": {
     "eventID": "shadow-giratina-altered-in-shadow-raids-august-2026",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "pokemonspotlighthour2026-08-06": {
@@ -324,13 +324,13 @@
   "max-battle-day-october-2026": {
     "eventID": "max-battle-day-october-2026",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "september-communitydayclassic2026": {
     "eventID": "september-communitydayclassic2026",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "super-mega-raid-day-september-2026": {
@@ -348,43 +348,43 @@
   "hatch-day-october-2026": {
     "eventID": "hatch-day-october-2026",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "october-communityday2026": {
     "eventID": "october-communityday2026",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "max-battle-day-october-24-2026": {
     "eventID": "max-battle-day-october-24-2026",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "super-mega-raid-day-october-2026": {
     "eventID": "super-mega-raid-day-october-2026",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "november-communityday2026": {
     "eventID": "november-communityday2026",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "super-mega-raid-day-november-2026": {
     "eventID": "super-mega-raid-day-november-2026",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "mega-ascension": {
     "eventID": "mega-ascension",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "10th-anniversary-celebration": {
@@ -412,37 +412,37 @@
   "max-mondays-2026-09-07": {
     "eventID": "max-mondays-2026-09-07",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "pokemonspotlighthour2026-09-10": {
     "eventID": "pokemonspotlighthour2026-09-10",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "pokemonspotlighthour2026-09-13": {
     "eventID": "pokemonspotlighthour2026-09-13",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "max-mondays-2026-09-14": {
     "eventID": "max-mondays-2026-09-14",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "raidhour20260909": {
     "eventID": "raidhour20260909",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "mega-beedrill-in-mega-raids-september-2026": {
     "eventID": "mega-beedrill-in-mega-raids-september-2026",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "mega-squads-2026": {
@@ -456,31 +456,31 @@
   "zacian-hero-of-many-battles-in-5-star-raid-battles-september-2026": {
     "eventID": "zacian-hero-of-many-battles-in-5-star-raid-battles-september-2026",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "mega-houndoom-in-mega-raids-september-2026": {
     "eventID": "mega-houndoom-in-mega-raids-september-2026",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "pokemonspotlighthour2026-09-17": {
     "eventID": "pokemonspotlighthour2026-09-17",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "max-mondays-2026-09-21": {
     "eventID": "max-mondays-2026-09-21",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "raidhour20260916": {
     "eventID": "raidhour20260916",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "unannounced-september-event-season-24": {
@@ -492,73 +492,73 @@
   "zamazenta-hero-of-many-battles-in-5-star-raid-battles-september-2026": {
     "eventID": "zamazenta-hero-of-many-battles-in-5-star-raid-battles-september-2026",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "raidhour20260923": {
     "eventID": "raidhour20260923",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "mega-venusaur-in-mega-raids-september-2026": {
     "eventID": "mega-venusaur-in-mega-raids-september-2026",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "mega-malamar-in-mega-raids-september-2026": {
     "eventID": "mega-malamar-in-mega-raids-september-2026",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "pokemonspotlighthour2026-09-24": {
     "eventID": "pokemonspotlighthour2026-09-24",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "max-mondays-2026-09-28": {
     "eventID": "max-mondays-2026-09-28",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "xurkitree-pheromosa-buzzwole-in-5-star-raid-battles-september-2026": {
     "eventID": "xurkitree-pheromosa-buzzwole-in-5-star-raid-battles-september-2026",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "raidhour20260930": {
     "eventID": "raidhour20260930",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "harvest-festival-2026": {
     "eventID": "harvest-festival-2026",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "mega-victreebel-in-mega-raids-september-2026": {
     "eventID": "mega-victreebel-in-mega-raids-september-2026",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "shadow-thundurus-incarnate-forme-in-shadow-raids-september-2026": {
     "eventID": "shadow-thundurus-incarnate-forme-in-shadow-raids-september-2026",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "xerneas-in-5-star-raid-battles-september-2026": {
     "eventID": "xerneas-in-5-star-raid-battles-september-2026",
     "found": false,
-    "fetchedAt": "2026-09-03T11:13:29.609Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "catch-mastery-phantump-2026": {
@@ -566,7 +566,7 @@
     "found": true,
     "title": "小木靈捕捉達人",
     "officialUrl": "https://pokemongo.com/zh-Hant/news/catch-mastery-phantump-2026",
-    "fetchedAt": "2026-08-28T11:22:41.949Z",
+    "fetchedAt": "2026-09-04T11:24:07.546Z",
     "confidence": 1
   },
   "pokemon-world-championships-2026-san-francisco": {
