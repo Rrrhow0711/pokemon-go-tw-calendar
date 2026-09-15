@@ -714,5 +714,13 @@
     "officialUrl": "https://pokemongo.com/zh-Hant/news/patterns-of-the-wild-2026",
     "fetchedAt": "2026-09-11T16:28:03.454Z",
     "confidence": 0.8500000000000001
+  },
+  "choose-your-path-twilight-trails-2026": {
+    "eventID": "choose-your-path-twilight-trails-2026",
+    "found": true,
+    "title": "自選限時調查：黃昏之旅",
+    "officialUrl": "https://pokemongo.com/zh-Hant/news/choose-your-path-twilight-trails-2026",
+    "fetchedAt": "2026-09-15T04:53:42.911Z",
+    "confidence": 0.8500000000000001
   }
 }
