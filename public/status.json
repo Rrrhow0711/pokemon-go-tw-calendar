@@ -1,11 +1,11 @@
 {
-  "lastSuccessfulUpdate": "2026-09-18T04:42:37.990Z",
-  "sourceEventCount": 70,
-  "generatedEventCount": 70,
+  "lastSuccessfulUpdate": "2026-09-18T11:13:30.704Z",
+  "sourceEventCount": 69,
+  "generatedEventCount": 69,
   "officialTranslationCount": 8,
   "ruleTranslationCount": 2,
   "modelTranslationCount": 0,
-  "fallbackCount": 60,
+  "fallbackCount": 59,
   "warnings": [
     "第 1 筆活動格式異常，已跳過：Invalid input: expected string, received null",
     "GitHub Models 無法使用，已採安全備援：GitHub Models 回傳 HTTP 410"
