@@ -1,14 +1,13 @@
 {
-  "lastSuccessfulUpdate": "2026-09-21T12:47:24.822Z",
+  "lastSuccessfulUpdate": "2026-09-21T21:58:23.242Z",
   "sourceEventCount": 69,
   "generatedEventCount": 69,
-  "officialTranslationCount": 7,
+  "officialTranslationCount": 8,
   "ruleTranslationCount": 2,
   "modelTranslationCount": 0,
-  "fallbackCount": 60,
+  "fallbackCount": 59,
   "warnings": [
-    "第 1 筆活動格式異常，已跳過：Invalid input: expected string, received null",
-    "GitHub Models 無法使用，已採安全備援：GitHub Models 回傳 HTTP 410"
+    "GitHub Models 無法使用，已採安全備援：Unexpected token 'O', \"OK\r\n\" is not valid JSON"
   ],
   "sourceUrl": "https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data/events.json",
   "calendarUrl": "https://rrrhow0711.github.io/pokemon-go-tw-calendar/pokemon-go-zh-TW.ics"
