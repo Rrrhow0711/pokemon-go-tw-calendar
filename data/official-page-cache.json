@@ -892,5 +892,13 @@
     "officialUrl": "https://pokemongo.com/zh-Hant/news/world-space-week-2026",
     "fetchedAt": "2026-09-21T21:58:23.413Z",
     "confidence": 1
+  },
+  "go-pass-october-2026": {
+    "eventID": "go-pass-october-2026",
+    "found": true,
+    "title": "GO Pass：10月",
+    "officialUrl": "https://pokemongo.com/zh-Hant/news/go-pass-october-2026",
+    "fetchedAt": "2026-09-22T21:18:08.162Z",
+    "confidence": 1
   }
 }
