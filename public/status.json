@@ -1,11 +1,11 @@
 {
-  "lastSuccessfulUpdate": "2026-10-02T05:36:08.882Z",
-  "sourceEventCount": 65,
-  "generatedEventCount": 65,
+  "lastSuccessfulUpdate": "2026-10-02T12:33:30.008Z",
+  "sourceEventCount": 64,
+  "generatedEventCount": 64,
   "officialTranslationCount": 10,
   "ruleTranslationCount": 2,
   "modelTranslationCount": 0,
-  "fallbackCount": 53,
+  "fallbackCount": 52,
   "warnings": [
     "第 1 筆活動格式異常，已跳過：Invalid input: expected string, received null",
     "第 2 筆活動格式異常，已跳過：Invalid input: expected string, received null",
