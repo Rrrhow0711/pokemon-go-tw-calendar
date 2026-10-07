@@ -1,15 +1,17 @@
 {
-  "lastSuccessfulUpdate": "2026-10-06T18:21:24.583Z",
-  "sourceEventCount": 60,
-  "generatedEventCount": 60,
-  "officialTranslationCount": 7,
+  "lastSuccessfulUpdate": "2026-10-07T05:58:00.922Z",
+  "sourceEventCount": 58,
+  "generatedEventCount": 58,
+  "officialTranslationCount": 6,
   "ruleTranslationCount": 2,
   "modelTranslationCount": 0,
-  "fallbackCount": 51,
+  "fallbackCount": 50,
   "warnings": [
     "第 1 筆活動格式異常，已跳過：Invalid input: expected string, received null",
     "第 2 筆活動格式異常，已跳過：Invalid input: expected string, received null",
     "第 3 筆活動格式異常，已跳過：Invalid input: expected string, received null",
+    "第 4 筆活動格式異常，已跳過：Invalid input: expected string, received null",
+    "第 5 筆活動格式異常，已跳過：Invalid input: expected string, received null",
     "GitHub Models 無法使用，已採安全備援：Unexpected token 'O', \"OK\r\n\" is not valid JSON"
   ],
   "sourceUrl": "https://raw.githubusercontent.com/bigfoott/ScrapedDuck/data/events.json",
