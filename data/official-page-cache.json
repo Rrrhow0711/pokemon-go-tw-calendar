@@ -1030,5 +1030,11 @@
     "officialUrl": "https://pokemongo.com/zh-Hant/news/chandelure-super-mega-raid-day-2026",
     "fetchedAt": "2026-10-14T04:52:20.779Z",
     "confidence": 1
+  },
+  "pokemon-go-city-safari-boston-2026-rescheduled": {
+    "eventID": "pokemon-go-city-safari-boston-2026-rescheduled",
+    "found": false,
+    "fetchedAt": "2026-10-14T17:09:40.198Z",
+    "confidence": 1
   }
 }
