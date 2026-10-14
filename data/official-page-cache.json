@@ -1022,5 +1022,13 @@
     "found": false,
     "fetchedAt": "2026-10-13T22:44:01.767Z",
     "confidence": 1
+  },
+  "chandelure-super-mega-raid-day-2026": {
+    "eventID": "chandelure-super-mega-raid-day-2026",
+    "found": true,
+    "title": "水晶燈火靈極致超級團體戰日",
+    "officialUrl": "https://pokemongo.com/zh-Hant/news/chandelure-super-mega-raid-day-2026",
+    "fetchedAt": "2026-10-14T04:52:20.779Z",
+    "confidence": 1
   }
 }
