@@ -900,7 +900,7 @@
     "found": true,
     "title": "GO Pass：10月",
     "officialUrl": "https://pokemongo.com/zh-Hant/news/go-pass-october-2026",
-    "fetchedAt": "2026-10-21T17:11:09.468Z",
+    "fetchedAt": "2026-10-28T22:34:13.020Z",
     "confidence": 1
   },
   "pokemon-x-adidas-2026": {
@@ -1042,7 +1042,7 @@
     "found": true,
     "title": "曠野週",
     "officialUrl": "https://pokemongo.com/zh-Hant/news/into-the-wild-2026",
-    "fetchedAt": "2026-10-21T21:42:02.552Z",
+    "fetchedAt": "2026-10-28T22:34:13.020Z",
     "confidence": 0.9500000000000001
   },
   "pokemon-night-out-los-angeles-2026": {
@@ -1172,5 +1172,17 @@
     "officialUrl": "https://pokemongo.com/zh-Hant/news/go-pass-november-2026",
     "fetchedAt": "2026-10-27T22:12:57.427Z",
     "confidence": 0.8500000000000001
+  },
+  "eternamax-eternatus-max-battles-2026": {
+    "eventID": "eternamax-eternatus-max-battles-2026",
+    "found": false,
+    "fetchedAt": "2026-10-28T22:34:13.020Z",
+    "confidence": 1
+  },
+  "pokemonspotlighthour2026-11-19": {
+    "eventID": "pokemonspotlighthour2026-11-19",
+    "found": false,
+    "fetchedAt": "2026-10-28T22:34:13.020Z",
+    "confidence": 1
   }
 }
