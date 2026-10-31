@@ -1176,13 +1176,13 @@
   "eternamax-eternatus-max-battles-2026": {
     "eventID": "eternamax-eternatus-max-battles-2026",
     "found": false,
-    "fetchedAt": "2026-10-29T22:44:17.156Z",
+    "fetchedAt": "2026-10-31T05:39:39.038Z",
     "confidence": 1
   },
   "pokemonspotlighthour2026-11-19": {
     "eventID": "pokemonspotlighthour2026-11-19",
     "found": false,
-    "fetchedAt": "2026-10-29T22:44:17.156Z",
+    "fetchedAt": "2026-10-31T05:39:39.038Z",
     "confidence": 1
   }
 }
