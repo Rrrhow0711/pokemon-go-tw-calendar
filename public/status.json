@@ -1,11 +1,11 @@
 {
-  "lastSuccessfulUpdate": "2026-11-03T14:12:34.950Z",
+  "lastSuccessfulUpdate": "2026-11-03T23:22:42.679Z",
   "sourceEventCount": 48,
   "generatedEventCount": 48,
-  "officialTranslationCount": 4,
+  "officialTranslationCount": 5,
   "ruleTranslationCount": 0,
   "modelTranslationCount": 0,
-  "fallbackCount": 44,
+  "fallbackCount": 43,
   "warnings": [
     "GitHub Models 無法使用，已採安全備援：Unexpected token 'O', \"OK\r\n\" is not valid JSON"
   ],
