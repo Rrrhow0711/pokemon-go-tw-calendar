@@ -908,7 +908,7 @@
     "found": true,
     "title": "限時調查",
     "officialUrl": "https://pokemongo.com/zh-Hant/news/pokemon-x-adidas-2026",
-    "fetchedAt": "2026-10-29T22:44:17.156Z",
+    "fetchedAt": "2026-11-06T06:42:40.223Z",
     "confidence": 1
   },
   "pokemon-go-tour-alola-kaohsiung-2027": {
@@ -1185,6 +1185,20 @@
     "eventID": "pokemonspotlighthour2026-11-19",
     "found": false,
     "fetchedAt": "2026-11-05T06:44:47.658Z",
+    "confidence": 1
+  },
+  "clefable-super-mega-raid-day-2026": {
+    "eventID": "clefable-super-mega-raid-day-2026",
+    "found": true,
+    "title": "皮可西極致超級團體戰日",
+    "officialUrl": "https://pokemongo.com/zh-Hant/news/clefable-super-mega-raid-day-2026",
+    "fetchedAt": "2026-11-06T06:42:40.223Z",
+    "confidence": 1
+  },
+  "go-wild-area-gigantamax-machamp-power-up-timed-research": {
+    "eventID": "go-wild-area-gigantamax-machamp-power-up-timed-research",
+    "found": false,
+    "fetchedAt": "2026-11-06T06:42:40.223Z",
     "confidence": 1
   }
 }
