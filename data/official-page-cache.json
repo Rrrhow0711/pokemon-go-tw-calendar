@@ -1206,5 +1206,71 @@
     "found": false,
     "fetchedAt": "2026-11-09T22:20:43.429Z",
     "confidence": 1
+  },
+  "max-battle-day-december-2026": {
+    "eventID": "max-battle-day-december-2026",
+    "found": false,
+    "fetchedAt": "2026-11-10T07:16:33.033Z",
+    "confidence": 1
+  },
+  "hatch-day-december-2026": {
+    "eventID": "hatch-day-december-2026",
+    "found": false,
+    "fetchedAt": "2026-11-10T07:16:33.033Z",
+    "confidence": 1
+  },
+  "january-communitydayclassic2027": {
+    "eventID": "january-communitydayclassic2027",
+    "found": false,
+    "fetchedAt": "2026-11-10T07:16:33.033Z",
+    "confidence": 1
+  },
+  "super-mega-raid-day-january-2027": {
+    "eventID": "super-mega-raid-day-january-2027",
+    "found": false,
+    "fetchedAt": "2026-11-10T07:16:33.033Z",
+    "confidence": 1
+  },
+  "january-communityday2027": {
+    "eventID": "january-communityday2027",
+    "found": false,
+    "fetchedAt": "2026-11-10T07:16:33.033Z",
+    "confidence": 1
+  },
+  "december-communityday2026": {
+    "eventID": "december-communityday2026",
+    "found": false,
+    "fetchedAt": "2026-11-10T07:16:33.033Z",
+    "confidence": 1
+  },
+  "raid-day-december-2026": {
+    "eventID": "raid-day-december-2026",
+    "found": false,
+    "fetchedAt": "2026-11-10T07:16:33.033Z",
+    "confidence": 1
+  },
+  "max-battle-day-january-2027": {
+    "eventID": "max-battle-day-january-2027",
+    "found": false,
+    "fetchedAt": "2026-11-10T07:16:33.033Z",
+    "confidence": 1
+  },
+  "raid-day-february-2027": {
+    "eventID": "raid-day-february-2027",
+    "found": false,
+    "fetchedAt": "2026-11-10T07:16:33.033Z",
+    "confidence": 1
+  },
+  "super-mega-raid-day-january-30-2027": {
+    "eventID": "super-mega-raid-day-january-30-2027",
+    "found": false,
+    "fetchedAt": "2026-11-10T07:16:33.033Z",
+    "confidence": 1
+  },
+  "february-communityday2027": {
+    "eventID": "february-communityday2027",
+    "found": false,
+    "fetchedAt": "2026-11-10T07:16:33.033Z",
+    "confidence": 1
   }
 }
