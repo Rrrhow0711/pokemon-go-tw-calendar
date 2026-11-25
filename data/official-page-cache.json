@@ -406,7 +406,7 @@
   "season-24-twilight-trails": {
     "eventID": "season-24-twilight-trails",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "max-mondays-2026-09-07": {
@@ -914,19 +914,19 @@
   "pokemon-go-tour-alola-kaohsiung-2027": {
     "eventID": "pokemon-go-tour-alola-kaohsiung-2027",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "pokemon-go-tour-alola-global-2027": {
     "eventID": "pokemon-go-tour-alola-global-2027",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "pokemon-go-tour-alola-los-angeles-2027": {
     "eventID": "pokemon-go-tour-alola-los-angeles-2027",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "sandile-hatch-day-2026": {
@@ -976,7 +976,7 @@
   "minior-showers-geminids-2026": {
     "eventID": "minior-showers-geminids-2026",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "minior-showers-orionids-2026": {
@@ -994,19 +994,19 @@
   "minior-showers-eta-aquariids-2027": {
     "eventID": "minior-showers-eta-aquariids-2027",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "minior-showers-southern-delta-aquariids-2027": {
     "eventID": "minior-showers-southern-delta-aquariids-2027",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "minior-showers-perseids-2027": {
     "eventID": "minior-showers-perseids-2027",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "dynamax-uxie-mesprit-azelf-max-battle-day-2026": {
@@ -1114,31 +1114,31 @@
   "cresselia-darkrai-in-5-star-raid-battles-november-2026": {
     "eventID": "cresselia-darkrai-in-5-star-raid-battles-november-2026",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "mega-banette-in-mega-raids-november-2026": {
     "eventID": "mega-banette-in-mega-raids-november-2026",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "raidhour20261125": {
     "eventID": "raidhour20261125",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "pokemonspotlighthour2026-11-26": {
     "eventID": "pokemonspotlighthour2026-11-26",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "max-mondays-2026-11-30": {
     "eventID": "max-mondays-2026-11-30",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "twilight-wishes-2026": {
@@ -1146,25 +1146,25 @@
     "found": true,
     "title": "黃昏時分的心願",
     "officialUrl": "https://pokemongo.com/zh-Hant/news/twilight-wishes-2026",
-    "fetchedAt": "2026-11-18T07:26:35.757Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "shadow-tornadus-incarnate-forme-in-shadow-raids-november-16-2026": {
     "eventID": "shadow-tornadus-incarnate-forme-in-shadow-raids-november-16-2026",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "deoxys-normal-defense-attack-speed-formes-in-5-star-raid-battles-november-2026": {
     "eventID": "deoxys-normal-defense-attack-speed-formes-in-5-star-raid-battles-november-2026",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "mega-metagross-in-mega-raids-november-2026": {
     "eventID": "mega-metagross-in-mega-raids-november-2026",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "go-pass-november-2026": {
@@ -1172,7 +1172,7 @@
     "found": true,
     "title": "GO Pass：11月",
     "officialUrl": "https://pokemongo.com/zh-Hant/news/go-pass-november-2026",
-    "fetchedAt": "2026-11-18T07:26:35.757Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 0.8500000000000001
   },
   "eternamax-eternatus-max-battles-2026": {
@@ -1210,73 +1210,73 @@
   "max-battle-day-december-2026": {
     "eventID": "max-battle-day-december-2026",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "hatch-day-december-2026": {
     "eventID": "hatch-day-december-2026",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "january-communitydayclassic2027": {
     "eventID": "january-communitydayclassic2027",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "super-mega-raid-day-january-2027": {
     "eventID": "super-mega-raid-day-january-2027",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "january-communityday2027": {
     "eventID": "january-communityday2027",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "december-communityday2026": {
     "eventID": "december-communityday2026",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "raid-day-december-2026": {
     "eventID": "raid-day-december-2026",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "max-battle-day-january-2027": {
     "eventID": "max-battle-day-january-2027",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "raid-day-february-2027": {
     "eventID": "raid-day-february-2027",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "super-mega-raid-day-january-30-2027": {
     "eventID": "super-mega-raid-day-january-30-2027",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "february-communityday2027": {
     "eventID": "february-communityday2027",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "duolingo-timed-research-2026": {
     "eventID": "duolingo-timed-research-2026",
     "found": false,
-    "fetchedAt": "2026-11-23T23:52:57.826Z",
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   },
   "pokemon-latin-america-international-championships-2027-timed-research-twitch-drops": {
@@ -1549,6 +1549,30 @@
     "eventID": "gbl-daydream-destinations_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition_mega-catch-cup-great-league-edition",
     "found": false,
     "fetchedAt": "2026-11-24T22:25:52.183Z",
+    "confidence": 1
+  },
+  "choose-your-path-daydream-destinations-2027-01-12": {
+    "eventID": "choose-your-path-daydream-destinations-2027-01-12",
+    "found": false,
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
+    "confidence": 1
+  },
+  "choose-your-path-daydream-destinations-2027-01-26": {
+    "eventID": "choose-your-path-daydream-destinations-2027-01-26",
+    "found": false,
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
+    "confidence": 1
+  },
+  "choose-your-path-daydream-destinations-2026-12-15": {
+    "eventID": "choose-your-path-daydream-destinations-2026-12-15",
+    "found": false,
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
+    "confidence": 1
+  },
+  "choose-your-path-daydream-destinations-2027-02-16": {
+    "eventID": "choose-your-path-daydream-destinations-2027-02-16",
+    "found": false,
+    "fetchedAt": "2026-11-25T08:31:19.953Z",
     "confidence": 1
   }
 }
