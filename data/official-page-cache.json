@@ -906,10 +906,10 @@
   "pokemon-x-adidas-2026": {
     "eventID": "pokemon-x-adidas-2026",
     "found": true,
-    "title": "限時調查",
+    "title": "Timed Research",
     "officialUrl": "https://pokemongo.com/zh-Hant/news/pokemon-x-adidas-2026",
-    "fetchedAt": "2026-11-20T07:14:21.738Z",
-    "confidence": 1
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
+    "confidence": 0.8500000000000001
   },
   "pokemon-go-tour-alola-kaohsiung-2027": {
     "eventID": "pokemon-go-tour-alola-kaohsiung-2027",
@@ -1192,7 +1192,7 @@
     "found": true,
     "title": "皮可西極致超級團體戰日",
     "officialUrl": "https://pokemongo.com/zh-Hant/news/clefable-super-mega-raid-day-2026",
-    "fetchedAt": "2026-11-20T07:14:21.738Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "go-wild-area-gigantamax-machamp-power-up-timed-research": {
@@ -1288,13 +1288,13 @@
   "max-mondays-2026-12-07": {
     "eventID": "max-mondays-2026-12-07",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "pokemonspotlighthour2026-12-03": {
     "eventID": "pokemonspotlighthour2026-12-03",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "tropical-paradise-2026": {
@@ -1308,31 +1308,31 @@
   "raidhour20261202": {
     "eventID": "raidhour20261202",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "mega-slowbro-in-mega-raids-december-2026": {
     "eventID": "mega-slowbro-in-mega-raids-december-2026",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "gbl-daydream-destinations_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-1": {
     "eventID": "gbl-daydream-destinations_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-1",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "raidhour20261209": {
     "eventID": "raidhour20261209",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "regidrago-in-5-star-raid-battles-december-2026": {
     "eventID": "regidrago-in-5-star-raid-battles-december-2026",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "unannounced-event-december-2026": {
@@ -1344,25 +1344,25 @@
   "pokemonspotlighthour2026-12-10": {
     "eventID": "pokemonspotlighthour2026-12-10",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "max-mondays-2026-12-14": {
     "eventID": "max-mondays-2026-12-14",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "mega-gengar-in-mega-raids-december-2026": {
     "eventID": "mega-gengar-in-mega-raids-december-2026",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "raidhour20261216": {
     "eventID": "raidhour20261216",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "unannounced-pokemon-in-5-star-raid-battles-december-2026": {
@@ -1374,79 +1374,79 @@
   "gbl-daydream-destinations_great-league-mega-edition_mountain-cup-great-league-edition": {
     "eventID": "gbl-daydream-destinations_great-league-mega-edition_mountain-cup-great-league-edition",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "ho-oh-in-5-star-raid-battles-december-2026": {
     "eventID": "ho-oh-in-5-star-raid-battles-december-2026",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "pokemonspotlighthour2026-12-17": {
     "eventID": "pokemonspotlighthour2026-12-17",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "max-mondays-2026-12-21": {
     "eventID": "max-mondays-2026-12-21",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "gbl-daydream-destinations_ultra-league-mega-edition_holiday-cup-great-league-edition": {
     "eventID": "gbl-daydream-destinations_ultra-league-mega-edition_holiday-cup-great-league-edition",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "mega-skarmory-in-mega-raids-december-2026": {
     "eventID": "mega-skarmory-in-mega-raids-december-2026",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "pokemonspotlighthour2026-12-24": {
     "eventID": "pokemonspotlighthour2026-12-24",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "winter-holiday-2026": {
     "eventID": "winter-holiday-2026",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "gbl-daydream-destinations_master-league-mega-edition_holiday-cup-great-league-edition": {
     "eventID": "gbl-daydream-destinations_master-league-mega-edition_holiday-cup-great-league-edition",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "raidhour20261223": {
     "eventID": "raidhour20261223",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "lugia-in-5-star-raid-battles-december-2026": {
     "eventID": "lugia-in-5-star-raid-battles-december-2026",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "raidhour20261230": {
     "eventID": "raidhour20261230",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "max-mondays-2026-12-28": {
     "eventID": "max-mondays-2026-12-28",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "go-pass-december-2026": {
@@ -1460,97 +1460,97 @@
   "pokemonspotlighthour2026-12-31": {
     "eventID": "pokemonspotlighthour2026-12-31",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "new-years-2027": {
     "eventID": "new-years-2027",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "mega-glalie-in-mega-raids-december-2026": {
     "eventID": "mega-glalie-in-mega-raids-december-2026",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "mega-falinks-in-mega-raids-december-2026": {
     "eventID": "mega-falinks-in-mega-raids-december-2026",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "shadow-dialga-in-shadow-raids-december-2026": {
     "eventID": "shadow-dialga-in-shadow-raids-december-2026",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "tornadus-thundurus-landorus-therian-formes-in-5-star-raid-battles-december-2026": {
     "eventID": "tornadus-thundurus-landorus-therian-formes-in-5-star-raid-battles-december-2026",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "gbl-daydream-destinations_great-league-mega-edition_fighting-cup-great-league-edition": {
     "eventID": "gbl-daydream-destinations_great-league-mega-edition_fighting-cup-great-league-edition",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "gbl-daydream-destinations_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-3": {
     "eventID": "gbl-daydream-destinations_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-3",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "gbl-daydream-destinations_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-2": {
     "eventID": "gbl-daydream-destinations_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition-split-2",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "gbl-daydream-destinations_master-league-mega-edition_master-league": {
     "eventID": "gbl-daydream-destinations_master-league-mega-edition_master-league",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "gbl-daydream-destinations_ultra-league-mega-edition_jungle-cup-great-league-edition": {
     "eventID": "gbl-daydream-destinations_ultra-league-mega-edition_jungle-cup-great-league-edition",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "gbl-daydream-destinations_great-league-mega-edition_master-league": {
     "eventID": "gbl-daydream-destinations_great-league-mega-edition_master-league",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "gbl-daydream-destinations_ultra-league-mega-edition_love-cup-great-league-edition_2027-go-euic-cup": {
     "eventID": "gbl-daydream-destinations_ultra-league-mega-edition_love-cup-great-league-edition_2027-go-euic-cup",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "season-25-daydream-destinations": {
     "eventID": "season-25-daydream-destinations",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "gbl-daydream-destinations_master-league-mega-edition_mega-catch-cup-great-league-edition_2027-go-euic-cup": {
     "eventID": "gbl-daydream-destinations_master-league-mega-edition_mega-catch-cup-great-league-edition_2027-go-euic-cup",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "gbl-daydream-destinations_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition_mega-catch-cup-great-league-edition": {
     "eventID": "gbl-daydream-destinations_great-league-mega-edition_ultra-league-mega-edition_master-league-mega-edition_mega-catch-cup-great-league-edition",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   },
   "choose-your-path-daydream-destinations-2027-01-12": {
@@ -1596,7 +1596,7 @@
   "pokemon-champions-celebration-5-star-raid-battles-december-2026": {
     "eventID": "pokemon-champions-celebration-5-star-raid-battles-december-2026",
     "found": false,
-    "fetchedAt": "2026-11-26T08:15:32.483Z",
+    "fetchedAt": "2026-11-27T08:29:57.386Z",
     "confidence": 1
   }
 }
